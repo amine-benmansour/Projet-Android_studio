@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_longueur"
+    tools:context=".DistanceconvertActivity">
+
+    <EditText
+        android:id="@+id/textesaisirvaleur"
+        android:layout_width="349dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:filterTouchesWhenObscured="true"
+        android:gravity="center"
+        android:hint="@string/saisirvaleur"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texte_long_dep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/longeurdepart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textesaisirvaleur" />
+
+    <Spinner
+        android:id="@+id/long_depart_spinner"
+        android:layout_width="409dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texte_long_dep" />
+
+    <TextView
+        android:id="@+id/texte_long_arrivee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/longeurarrivee"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/long_depart_spinner" />
+
+    <Spinner
+        android:id="@+id/long_arrivee_spinner"
+        android:layout_width="406dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texte_long_arrivee" />
+
+    <Button
+        android:id="@+id/valider_longeur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/convertir"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/long_arrivee_spinner" />
+</androidx.constraintlayout.widget.ConstraintLayout>

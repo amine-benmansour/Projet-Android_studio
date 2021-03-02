@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nomapplication">Unit Converter </string>
+    <string name="saisircategorie">Enter the category</string>
+    <string name="Température">Temperature</string>
+    <string name="Distance">Distance</string>
+    <string name="Monnaie">Currency</string>
+    <string name="Saisietemperature">Enter Temperature</string>
+    <string name="FaC">From Fahrenheit To Celsius</string>
+    <string name="CaF">From Celsius To Fahrenheit</string>
+    <string name="convertir">Convert</string>
+    <string name="saisirmontant">Enter the Amount</string>
+    <string name="devisedepart">From Currency :</string>
+    <string name="devisearrive">To Currency : </string>
+    <string name="saisirvaleur">Enter Value</string>
+    <string name="longeurdepart">From Length : </string>
+    <string name="longeurarrivee">To Lenght : </string>
+    <string name="voirplus">See more...</string>
+
+
+</resources>

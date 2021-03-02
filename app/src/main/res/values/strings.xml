@@ -1,0 +1,19 @@
+<resources>
+    <string name="nomapplication">Convertisseur unités</string>
+    <string name="saisircategorie">Saisir la catégorie</string>
+    <string name="Température">Température</string>
+    <string name="Distance">Distance</string>
+    <string name="Monnaie">Monnaie</string>
+    <string name="Saisietemperature">Saisir la température</string>
+    <string name="CaF">De Celsius à  Fahrenheit</string>
+    <string name="FaC">De Fahrenheit à Celsius</string>
+    <string name="convertir">Convertir</string>
+    <string name="saisirmontant">Saisir le montant</string>
+    <string name="devisedepart">De la Devise :</string>
+    <string name="devisearrive">À la Devise : </string>
+    <string name="saisirvaleur">Saisir la valeur</string>
+    <string name="longeurdepart">De la Longueur : </string>
+    <string name="longeurarrivee">À la Longueur : </string>
+    <string name="voirplus">Voir plus...</string>
+
+</resources>
